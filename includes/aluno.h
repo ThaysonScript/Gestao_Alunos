@@ -6,3 +6,8 @@ typedef struct {
   int faltas[7];
 } Aluno;
 
+typedef struct {
+  Aluno aluno*;
+} Turma;
+
+int inserirAluno();
