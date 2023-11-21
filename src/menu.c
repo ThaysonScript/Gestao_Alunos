@@ -1,8 +1,10 @@
 #include <stdio.h>
+#include "../includes/menu.h"
+#include "../includes/aluno.h"
 
 void menu() {
   puts("----------------- GESTAO DE ALUNOS ----------------");
-  puts("[1] - Cadastrar Aluno");
+  puts("[1] - Inserir Aluno no Inicio");
   puts("[2] - Cadastrar Aluno");
   puts("[3] - Cadastrar Aluno");
   puts("[4] - Cadastrar Aluno");
@@ -16,7 +18,7 @@ void menu() {
   
   switch(escolha) {
     case 1:
-      /////
+      inserirInicio(Aluno aluno, Turma *turma);
       break;
 
     case 2:
@@ -31,21 +33,4 @@ void menu() {
       puts("Digite escolha valida!\n");
       menu(); 
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }

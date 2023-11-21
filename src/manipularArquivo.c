@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "../includes/manipularArquivo.h"
 
 void criarArquivo() {
   FILE *fptr;
@@ -19,6 +20,6 @@ void atualizarArquivo() {
   
 }
 
-void deletarArquvo() {
+void deletarArquivo() {
   
 }
