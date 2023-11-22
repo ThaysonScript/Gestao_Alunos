@@ -23,5 +23,9 @@ void inserirAlunoInicio(Aluno *aluno);
 void inserirAlunoPosicaoEspecifica();
 void inserirAlunoFim();
 
+// remover posições
+void removerPosição ( int posicao, Aluno *Aluno );
+void removerValor();
+
 // cadastro
 void cadastrarAluno();
