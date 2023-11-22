@@ -46,5 +46,9 @@ void tamanho(Turma *turma);
 // opcao para sair
 void sair();
 
+// remover posições
+void removerPosição ( int posicao, Aluno *Aluno );
+void removerValor();
+
 // cadastro
 void cadastrarAluno();
